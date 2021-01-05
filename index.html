@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./formHandler.js"></script>
+</head>
+<body>
+  <form id="string-finder">
+    <label for="query-string">Query String:</label>
+    <input id="query-string" type="text" placeholder="p"/>
+    
+    <label for="dictionary">Dictionary:</label>
+    <input id="dictionary" type="text" placeholder="['apple', 'avocado', 'banana', 'peach', 'pear', 'pineapple']"/>
+
+    <input type="submit" value="Find Strings"/>
+  </form>
+
+  <div id="result-container">
+    <span>Result:</span>
+    <span id="out-put"></span>
+  </div>
+</body>
+</html>
